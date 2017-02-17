@@ -1,0 +1,4 @@
+.DS_Store
+project.lock.json
+node_modules/
+npm-debug.log
