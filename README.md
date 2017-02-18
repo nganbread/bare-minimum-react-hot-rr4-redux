@@ -1,5 +1,5 @@
 # Webpack2 + HMR + ReactHotLoader3 + ReactRouter4
-A bare minimum implementation of HMR + ReactHotLoader in Webpack2 in combination with React Router4
+A bare minimum implementation of HMR + ReactHotLoader in Webpack2 in combination with ReactRouter4 and Redux
 
 # Build/Run
 ```javascript
