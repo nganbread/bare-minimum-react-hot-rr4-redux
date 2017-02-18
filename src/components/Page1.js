@@ -17,7 +17,7 @@ export default class extends Component {
 
   render() {
     return <div>
-      Page 1!
+      Page 1
       <input type="number" value={this.state.value} onChange={e => this.changed(e)} />
     </div>   
   }
