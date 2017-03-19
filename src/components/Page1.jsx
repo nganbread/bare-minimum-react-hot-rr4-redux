@@ -12,7 +12,7 @@ export default class extends Component {
   changed = event => {
     this.setState({
       value: event.target.valueAsNumber
-    })
+    });
   }
 
   render() {
