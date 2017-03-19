@@ -9,7 +9,7 @@ export default class extends Component {
     }
   }
 
-  changed(event){
+  changed = event => {
     this.setState({
       value: event.target.valueAsNumber
     })
@@ -18,7 +18,7 @@ export default class extends Component {
   render() {
     return <div>
       Page 1
-      <input type="number" value={this.state.value} onChange={e => this.changed(e)} />
+      <input type="number" value={this.state.value} onChange={this.changed} />
     </div>   
   }
 }
